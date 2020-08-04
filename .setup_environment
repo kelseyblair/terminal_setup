@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+
+#   Script for setting up my preferred unix commandline environment
+#       Functions:
+#           setup vimrc
+#           setup bashprofile and bashalias
+#           set up git adog alias
+
+# Set bash profile. create bash_aliases, if empty add lines. If-include in bashrc
+#       if the include doesn't already exist
+
+
+
+# Set vimrc. If vimrc exists, add lines. Else create
+
+
+# Set git adog alias
+echo "Setting git adog alias"
+git config --global alias.adog "log --all --decorate --oneline --graph"
